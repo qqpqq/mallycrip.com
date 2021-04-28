@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "poiret";
+    src: url("../font/PoiretOne-Regular.ttf");
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'poiret';
+    -ms-overflow-style: none;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/lab_background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mallylab__content__wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 8vh;
+    margin-bottom: 5vh;
+}
+
+#mallylab__content__title {
+    font-size: 7vh;
+    font-weight: normal;
+}
+
+#mallylab__lab__image {
+    width: 5vh;
+    height: 5vh;
+    margin-left: 10px;
+}
+
+.mally__content__navi__wrapper {
+    margin-left: 5%;
+    margin-bottom: 20%;
+}
+
+.mally__content__navi {
+    font-size: 3vh;
+    color: black;
+}
